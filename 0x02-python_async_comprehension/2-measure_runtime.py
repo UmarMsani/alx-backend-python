@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 """
-Measure Runtime This module provides a coroutine called measure_runtime that measures
-total runtime of executing async_comprehension four times in parallel using asyncio.gather.
+Module contains measure_runtime coroutine
 """
 import asyncio
 from typing import List
