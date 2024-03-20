@@ -8,9 +8,9 @@ yields random numbers asynchronously.
 
 import asyncio
 import random
+from typing import Generator
 
-
-async def async_generator() -> asyncio.Queue:
+async def async_generator() -> Generator[float, None, None]:
     """
     Coroutine that yields random numbers asynchronously.
 
